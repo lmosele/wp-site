@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i');
+
+// main fonts
+$body: 'Montserrat', Helvetica, Verdana, Arial, sans-serif;
+$header: 'Montserrat', Helvetica, Verdana, Arial, sans-serif; 
+
+$bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+// $color0: #0078BD; 
+// $color1: #F0A202;
+// $color2: #333; 
+
+$orange: #F0A202;
+$blue: #0078BD; 
+$black: #333; 
+$white:            #fff;
+
+$blueoverlay: 	   rgba(104, 167, 185, 0.4);
+$whiteoverlay:     rgba(255,255,255,0.5);
+$blackoverlay:     rgba(0,0,0,0.5);
+
+
+// ** Breakpoints **
+$tinyscreen:        480px;
+$mobilescreen:      640px;
+$mediumscreen:      960px;
+$largescreen:       1024px;  
+$xlargescreen:      1366px;
+$xxlargescreen:     1500px;
+$xxxlargescreen:    1800px;
+$superlargescreen:  2100px;
+
+// ** Master Container Width **
+$masterwidth:      1024px; //current row width
+
+// ** Font Sizes **
+$fontsmall:        .6rem;
+$fontmobile:        .9rem;
+$fontbase:         1.1rem;
+$fontlarge:        1.3rem;
+$fontlarger:       1.5rem;
+$fontxlarger:      1.8rem;
+$fonthuge:         2.2rem;
+// ** Line Heights **
+$linesmall:        $fontsmall*1.5;
+$linebase:         $fontbase*1.5;
+$linelarge:        $fontlarge*1.5;
+$linelarger:       $fontlarger*1.2;
+$linexlarger:      $fontxlarger*1.2;
+$linehuge:         $fonthuge*1.5;
+
+// ** Z-index Scale **
+$z0:  0;
+$z1:  10;
+$z2:  20;
+$z3:  30;
+$z4:  40;
+$z5:  50;
+$z6:  60;
+$z7:  70;
+$z8:  80;
+$z9:  90;
+$z10: 100;
+
+
+// MEDIA QUERY MIXINS
+
+@mixin tiny { // Screens below 480 
+  @media (max-width: #{$tinyscreen}) {
+    @content;
+  }
+}
+@mixin mobile { // Screens below 640px 
+  @media (max-width: #{$mobilescreen - 1px}) {
+    @content;
+  }
+}
+@mixin tablet { // Screens between 640px and 960px and up
+  @media (max-width: #{$mediumscreen - 1px}) {
+    @content;
+  }
+}
+@mixin laptop { // Screens between 960px and 1024px and up
+  @media (min-width: #{$mediumscreen}) and (max-width: #{$largescreen - 1px}) {
+    @content;
+  }
+}
+@mixin desktop { // Screens between 1024px and 1366px and up
+  @media (min-width: #{$largescreen}) and (max-width: #{$xlargescreen - 1px}) {
+    @content;
+  }
+}
+@mixin monitor { // Screens 1366px and up
+  @media (min-width: #{$xxlargescreen}) { 
+    @content; 
+  }
+}

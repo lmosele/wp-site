@@ -1,0 +1,29 @@
+%abstract-button {
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	padding: 10px;
+	min-width: 150px;
+	height: 40px;
+	text-align: center;
+	background-color: gray;
+}
+
+.orange-button {
+	@extend %abstract-button;
+	background-color: $orange;
+	color: white;
+}
+
+.blue-button {
+	@extend %abstract-button;
+	background-color: $blue;
+	color: white;
+}
+
+.ghost-button {
+	@extend %abstract-button;
+	background-color: transparent;
+	color: $blue;
+	border: 1px solid $blue;
+}
