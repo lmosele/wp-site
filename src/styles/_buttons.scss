@@ -13,17 +13,25 @@
 	@extend %abstract-button;
 	background-color: $orange;
 	color: white;
+	border: 1px solid white;
 }
 
 .blue-button {
 	@extend %abstract-button;
 	background-color: $blue;
 	color: white;
+	border: 1px solid $blue;
 }
 
 .ghost-button {
 	@extend %abstract-button;
 	background-color: transparent;
-	color: $blue;
-	border: 1px solid $blue;
+	&.blue {
+		color: $blue;
+		border: 1px solid $blue;
+	}
+	&.white {
+		color: $white;
+		border: 1px solid $white;
+	}
 }

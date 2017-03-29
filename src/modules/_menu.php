@@ -1,12 +1,13 @@
 <nav class="top-nav">
-	<ul>
-		<li><a role="link" href="#">Our Services</a></li>
-		<li><a role="link" href="#">About</a></li>
-		<li><a role="link" href="#">News &amp; Events</a></li>
-		<li><a role="link" href="#">Our Team</a></li>
-		<li><a role="link" href="#">Careers</a></li>
+	<ul class="nav-link-list">
+		<li class="nav-link"><a role="link" href="#">Our Services</a></li>
+		<li class="nav-link"><a role="link" href="#">About</a></li>
+		<li class="nav-link"><a role="link" href="#">News &amp; Events</a></li>
+		<li class="nav-link"><a role="link" href="#">Our Team</a></li>
+		<li class="nav-link"><a role="link" href="#">Careers</a></li>
+		<li class="nav-link"><a class="orange-button" href="#">Contact Us</a></li>
 	</ul>
-	<a class="orange-button" href="#">Contact Us</a>
+	
 </nav>
 
 

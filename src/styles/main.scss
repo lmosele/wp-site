@@ -1,9 +1,17 @@
+// base
 @import "vendor/_normalize";
+@import "vendor/foundation";
 @import "vendor/font-awesome";
 @import "modules";
 @import "typography";
-@import "buttons";
-// @import "header";
 
-// @import "_modal";
+// ui elements
+@import "buttons";
+@import "banner";
+@import "newsbar";
+@import "base-ui";
+
+// views
+@import "home";
+
 

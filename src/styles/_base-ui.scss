@@ -1,0 +1,29 @@
+%abstract-section {
+	max-width: 100%;
+	min-height: 300px;
+	&.no-pad {
+		padding: 0;
+		.columns {
+			padding-top: 80px;
+			padding-bottom: 80px;
+		}
+	}
+}
+
+
+
+.section-white {
+	@extend %abstract-section;
+	color: $black;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.section-blue {
+	@extend %abstract-section;
+	color: $white;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: $blue;
+	@include gradient($blue, darken($blue, 10%));
+}
