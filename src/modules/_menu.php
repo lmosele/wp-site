@@ -1,11 +1,11 @@
 <nav class="top-nav">
 	<ul class="nav-link-list">
-		<li class="nav-link"><a role="link" href="#">Our Services</a></li>
-		<li class="nav-link"><a role="link" href="#">About</a></li>
-		<li class="nav-link"><a role="link" href="#">News &amp; Events</a></li>
-		<li class="nav-link"><a role="link" href="#">Our Team</a></li>
-		<li class="nav-link"><a role="link" href="#">Careers</a></li>
-		<li class="nav-link"><a class="orange-button" href="#">Contact Us</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="#">Our Services</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="#">About</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="#">News &amp; Events</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="#">Our Team</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="#">Careers</a></li>
+		<li class="nav-item"><a class="orange-button" href="#">Contact Us</a></li>
 	</ul>
 	
 </nav>

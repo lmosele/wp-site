@@ -1,6 +1,11 @@
-%abstract-section {
+.section {
 	max-width: 100%;
 	min-height: 300px;
+	.section-headline {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 300;
+	}
 	&.no-pad {
 		padding: 0;
 		.columns {
@@ -13,17 +18,40 @@
 
 
 .section-white {
-	@extend %abstract-section;
 	color: $black;
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
 
 .section-blue {
-	@extend %abstract-section;
 	color: $white;
 	padding-top: 80px;
 	padding-bottom: 80px;
 	background-color: $blue;
 	@include gradient($blue, darken($blue, 10%));
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius:4px;
+  height: 2em;
+}
+::-webkit-scrollbar:hover {
+  width: 5x;
+  border-radius:4px;
+  height: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $blue;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0,0,255,0);
+}
+
+body {
+  scrollbar-face-color: $blue;
+  background: rgba(255,255,255,0);
 }

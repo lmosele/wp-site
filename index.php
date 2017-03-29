@@ -12,7 +12,7 @@
 		</div>
 	</section>
 
-	<section id="homeValueProp" class="section-white row">
+	<section id="homeValueProp" class="section section-white row">
 		<div class="large-8 large-centered columns">
 			<h3 class="section-headline">Your Closing Professionals</h3>
 			<p class="section-paragraph">Text stuff</p>
@@ -26,34 +26,66 @@
 		</div>
 	</section>
 
-	<section id="homeTeamIntro" class="section-blue no-pad row">
+	<section id="homeTeamIntro" class="section section-blue no-pad row">
 		<div class="large-5 columns team-tile-image"></div>
 		<div class="large-7 columns">
 			<h3 class="section-headline">Your Closing Professionals</h3>
 			<p class="section-paragraph">Text stuff</p>
 			<div class="button-row row">
 				<div class="large-4 columns">
-					<a class="ghost-button white" href="#">Contact</a>
+					<a class="ghost-button white fullwidth" href="#">Contact</a>
 				</div>
 				<div class="large-4 columns">
-					<a class="ghost-button white" href="#">Contact</a>
+					<a class="ghost-button white fullwidth" href="#">Contact</a>
 				</div>
 				<div class="large-4 columns">
-					<a class="ghost-button white" href="#">Contact</a>
+					<a class="ghost-button white fullwidth" href="#">Contact</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<section id="homeAwards" class="section section-white row">
+		<div class="large-8 large-centered columns">
+			<h3 class="section-headline">Your Closing Professionals</h3>
+			<div class="home-slider">
+		    <div>your content</div>
+		    <div>your content</div>
+		    <div>your s</div>
+		    <div>your s</div>
+		    <div>your content</div>
+		    <div>your content</div>
+		    <div>your s</div>
+		    <div>your as</div>
+		    <div>your content</div>
+		  </div>
+		</div>
+	</section>
+
+
 	<div id="newsBar" class="news-event-bar row fullwidth">
 		<div class="large-8 large-centered columns">
-			test test for now
+			<!-- slider -->
+			
 		</div>
 	</div>
 
 	<!-- SCRIPTS -->
-	<script type="text/javascript" src="dist/js/jquery-3-alpha.min.js"></script>
-	<script type="text/javascript" src="dist/js/main.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="dist/js/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+			$('.home-slider').slick({
+			  slidesToShow: 3,
+			  slidesToScroll: 1,
+			  autoplay: true,
+			  autoplaySpeed: 5000,
+			});
+    });
+  </script>
+	<!-- <script type="text/javascript" src="dist/js/main.min.js"></script> -->
 	
 </body>
 </html>

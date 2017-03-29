@@ -1,7 +1,7 @@
 %abstract-button {
 	box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 	padding: 10px;
 	min-width: 150px;
 	height: 40px;
@@ -12,15 +12,23 @@
 .orange-button {
 	@extend %abstract-button;
 	background-color: $orange;
-	color: white;
+	color: $white;
 	border: 1px solid white;
+	&:hover {
+		background-color: lighten($orange,10%);
+		color: white;
+	}
 }
 
 .blue-button {
 	@extend %abstract-button;
 	background-color: $blue;
-	color: white;
+	color: $white;
 	border: 1px solid $blue;
+	&:hover {
+		border-color: $white;
+		color: $white;
+	}
 }
 
 .ghost-button {
@@ -29,9 +37,17 @@
 	&.blue {
 		color: $blue;
 		border: 1px solid $blue;
+		&:hover {
+			border-color: $white;
+			color: $white;
+		}
 	}
 	&.white {
 		color: $white;
 		border: 1px solid $white;
+		&:hover {
+			border-color: $blue;
+			color: $blue;
+		}
 	}
 }
