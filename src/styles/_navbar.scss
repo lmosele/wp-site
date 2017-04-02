@@ -7,18 +7,20 @@
 	display: table;
 	padding-top: 5px;
 	transition: all .2s ease;
+	z-index: $z9;
 	.nav-item {
 		display: inline-block;
 		line-height: 60px;
 		padding: 0px 10px;
 		.nav-link {
 			color: white;
+			padding-bottom: 5px;
 			text-transform: uppercase;
-			transition: all .5s ease;
+			transition: color .3s ease-out;
 			&:hover {
 				color: $blue;
-				border-bottom: 2px solid $blue;
-				transition: all .5s ease;
+				border-bottom: 3px solid $blue;
+				transition: color .3s ease-in;
 			}
 		}
 	}	
@@ -46,11 +48,9 @@
 		}
 		.nav-link {
 			color: $blue;
-			transition: all .5s ease;
 			&:hover {
-				color: $blue;
-				border-bottom: 2px solid $blue;
-				transition: all .5s ease;
+				color: $orange;
+				border-bottom: 0;
 			}
 		}
 	}

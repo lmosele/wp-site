@@ -2,7 +2,6 @@
 	max-width: 100%;
 	min-height: 300px;
 	.section-headline {
-		text-align: center;
 		text-transform: uppercase;
 		font-weight: 300;
 		font-size: $fontxlarger;
@@ -24,9 +23,9 @@
 	}
 	&.no-pad {
 		padding: 0;
-		.columns {
+		> .columns {
+			padding-left: 80px;
 			padding-top: 80px;
-			padding-bottom: 80px;
 		}
 	}
 }

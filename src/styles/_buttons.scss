@@ -1,3 +1,18 @@
+.button-row {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	a + a,
+	button + button {
+		margin-left: 20px;
+	}
+	@include mobile {
+		a + a,
+		button + button {
+			margin-left: 0;
+		}
+	}
+}
+
 %abstract-button {
 	box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -50,4 +65,10 @@
 			color: $blue;
 		}
 	}
+}
+
+
+.fullwidth {
+	width: 100%;
+	max-width: 100%;
 }

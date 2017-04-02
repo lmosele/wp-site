@@ -54,17 +54,17 @@
 		<div class="large-5 columns team-tile-image"></div>
 		<div class="large-7 columns">
 			<h3 class="section-headline">Your Closing Professionals</h3>
-			<p class="section-paragraph">Text stuff</p>
-			<div class="button-row row">
-				<div class="large-4 columns">
-					<a class="ghost-button white fullwidth" href="#">Contact</a>
-				</div>
-				<div class="large-4 columns">
-					<a class="ghost-button white fullwidth" href="#">Contact</a>
-				</div>
-				<div class="large-4 columns">
-					<a class="ghost-button white fullwidth" href="#">Contact</a>
-				</div>
+			<p class="section-paragraph">
+				Kriss Law specializes in residential conveyance. We have built our business on servicing our clients in new and innovative ways. We realize that many see the closing process as a difficult endeavor. At Kriss Law, we aim to simplify it for our clientele. From reasonable fees, to our willingness to conduct a closing at a client’s convenience, we firmly believe that our service makes us different.
+			</p>
+			<p class="section-paragraph">
+				Atlantic Closing & Escrow, LLC is a member of the Kriss Law family bringing the Kriss Law philosophy of superior service, commitment, and affordable pricing to all 50 States.
+			</p>
+			<div class="button-row">
+					<a class="ghost-button white" href="#">Locations</a>
+					<a class="ghost-button white" href="#">Contact Us</a>
+					<a class="ghost-button white" href="#">Meet The Team</a>
+					<a class="ghost-button white" href="#">Careers</a>
 			</div>
 		</div>
 	</section>
@@ -93,6 +93,8 @@
 			
 		</div>
 	</div>
+
+	<?php echo file_get_contents("./src/modules/_footer.php"); ?>
 
 	<!-- SCRIPTS -->
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
