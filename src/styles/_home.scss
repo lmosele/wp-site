@@ -11,3 +11,24 @@
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+.value-prop-links {
+	margin-top: 40px;
+	.value-prop-link-item {
+		.icon {
+			display: block;
+			margin: 0 auto;
+			max-width: 60px;
+			fill: $blue;
+		}
+		span {
+			display: block;
+		}
+		&:hover {
+			color: $orange;
+			.icon {
+				fill: $orange;
+			}
+		}
+	}
+}

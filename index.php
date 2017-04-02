@@ -3,25 +3,49 @@
 
 	<?php echo file_get_contents("./src/modules/_menu.php"); ?>
 
-	<section id="homeBanner" class="banner home-banner row fullwidth">
-		<div class="banner-container large-6 columns">
-			<h1>Your Closing Professionals</h1>
-			<h2>Residential real estate closing and escrow services made simple and affordable.</h2>
+	<section id="homeBanner" style="background-image:url('./dist/img/banner-image-desktop.jpg');" class="banner home-banner row fullwidth">
+		<div class="banner-container large-8 columns">
+			<h1 class="banner-header">Your Closing Professionals</h1>
+			<h2 class="banner-subheader">Residential real estate closing and escrow services made simple and affordable.</h2>
 			<a class="blue-button" id="mainBannerButton" href="#">Get A Quote</a>
-			<a class="ghost-button blue" id="secondaryBannerButton" href="#">Fee Calculator</a>
+			<a class="ghost-button white" id="secondaryBannerButton" href="#">Fee Calculator</a>
 		</div>
+		<div class="banner-callout large-4 columns"></div>
 	</section>
 
 	<section id="homeValueProp" class="section section-white row">
-		<div class="large-8 large-centered columns">
+		<div class="large-8 large-centered columns center">
 			<h3 class="section-headline">Your Closing Professionals</h3>
-			<p class="section-paragraph">Text stuff</p>
-			<p class="section-subtitle">Text stuff</p>
-			<ul class="row">
-				<li class="large-3 columns">test</li>
-				<li class="large-3 columns">test</li>
-				<li class="large-3 columns">test</li>
-				<li class="large-3 columns">test</li>
+			<h4 class="section-subheader">We realize that many see the closing process as a difficult endeavor. </h4>
+			<p class="section-paragraph">
+				At Kriss Law, we aim to simplify it for our clientele. From reasonable fees, to our willingness to conduct a closing at a client’s convenience, we firmly believe that our service makes us different. No matter who you are or what stage of the process you’re in, we’re here to help you:
+			</p>
+			<p class="section-subtitle">Click to see our services for each category:</p>
+			<ul class="value-prop-links row">
+				<li class="large-3 columns">
+					<a class="value-prop-link-item" href="#">
+						<?php echo file_get_contents("./dist/img/vector/briefcase.svg"); ?>
+						<span>Lenders</span>
+					</a>
+				</li>
+				<li class="large-3 columns">
+					<a class="value-prop-link-item" href="#">
+						<?php echo file_get_contents("./dist/img/vector/hands.svg"); ?>
+						Real Estate Agents
+					</a>
+				</li>
+				<li class="large-3 columns">
+					<a class="value-prop-link-item" href="#">
+						<?php echo file_get_contents("./dist/img/vector/wallet.svg"); ?>
+						Buyers				
+					</a>
+				</li>
+				<li class="large-3 columns">
+					<a class="value-prop-link-item" href="#">
+						<?php echo file_get_contents("./dist/img/vector/calculator.svg"); ?>
+						Sellers	
+					</a>
+				</li>
 			</ul>
 		</div>
 	</section>
@@ -74,18 +98,7 @@
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="dist/js/slick/slick.min.js"></script>
-
-  <script type="text/javascript">
-    $(document).ready(function(){
-			$('.home-slider').slick({
-			  slidesToShow: 3,
-			  slidesToScroll: 1,
-			  autoplay: true,
-			  autoplaySpeed: 5000,
-			});
-    });
-  </script>
-	<!-- <script type="text/javascript" src="dist/js/main.min.js"></script> -->
+	<script type="text/javascript" src="dist/js/main.min.js"></script>
 	
 </body>
 </html>

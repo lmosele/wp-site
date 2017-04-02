@@ -1,0 +1,57 @@
+.top-nav {
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: transparent;
+	display: table;
+	padding-top: 5px;
+	transition: all .2s ease;
+	.nav-item {
+		display: inline-block;
+		line-height: 60px;
+		padding: 0px 10px;
+		.nav-link {
+			color: white;
+			text-transform: uppercase;
+			transition: all .5s ease;
+			&:hover {
+				color: $blue;
+				border-bottom: 2px solid $blue;
+				transition: all .5s ease;
+			}
+		}
+	}	
+	.nav-link-list {
+		float: right;
+	}
+	.nav-button {
+		@extend .orange-button;
+		transition: all .2s ease;
+	}
+	.nav-logo {
+		float: left;
+		max-width: 300px;
+		height: 60px;
+	}
+	&.scrolled {
+		background-color: $white;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		border-bottom: 1px solid $blue;
+		transition: all .2s ease;
+		.nav-button {
+			@extend .blue-button;
+			transition: all .2s ease;
+		}
+		.nav-link {
+			color: $blue;
+			transition: all .5s ease;
+			&:hover {
+				color: $blue;
+				border-bottom: 2px solid $blue;
+				transition: all .5s ease;
+			}
+		}
+	}
+}
