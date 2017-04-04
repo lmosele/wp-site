@@ -1,5 +1,5 @@
 # wp-site
-Kriss Law Code Base
+This repo is creating the template for move to wordpress:
 
 In order to run Front-End
 `git clone`
