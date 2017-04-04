@@ -11,6 +11,10 @@
 	.footer-link-list {
 		.footer-link {
 			color: white;
+			line-height: $linelarger
+			&:hover {
+				
+			}
 		}
 	}
 	> .columns {

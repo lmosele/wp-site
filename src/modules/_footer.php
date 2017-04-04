@@ -1,4 +1,4 @@
-	<footer  id="footer" class="footer">
+	<footer  id="footer" class="section-blue footer">
 		<div class="footer-container row">
 			<div class="large-3 columns">
 				<ul class="footer-link-list">
