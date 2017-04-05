@@ -86,7 +86,7 @@ $z10: 100;
   }
 }
 @mixin desktop { // Screens between 1024px and 1366px and up
-  @media (min-width: #{$largescreen}) and (max-width: #{$xlargescreen - 1px}) {
+  @media (min-width: #{$mediumscreen}) and (max-width: #{$xlargescreen - 1px}) {
     @content;
   }
 }

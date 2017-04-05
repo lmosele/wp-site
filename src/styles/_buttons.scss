@@ -5,7 +5,7 @@
 	button + button {
 		margin-left: 20px;
 	}
-	@include mobile {
+	@include tablet {
 		a + a,
 		button + button {
 			margin-left: 0;
@@ -19,7 +19,7 @@
   -webkit-box-sizing: border-box;
 	padding: 10px;
 	min-width: 150px;
-	height: 40px;
+	min-height: 40px;
 	text-align: center;
 	background-color: gray;
 }
@@ -66,9 +66,24 @@
 		}
 	}
 }
-
-
 .fullwidth {
 	width: 100%;
 	max-width: 100%;
 }
+
+@include tablet {
+	.button-row {
+		width: 100%;
+	}
+	.ghost-button,
+	.blue-button,
+	.orange-button {
+		display: block;
+		width: 100%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}
+
+
+

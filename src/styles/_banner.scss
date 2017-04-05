@@ -20,7 +20,7 @@
 	@extend %abstract-banner;
 	.banner-container {
 		margin-top: 100px;
-		margin-left: 50px;
+		padding-left: 50px;
 		margin-bottom: 20px;
 		z-index: $z2;
 	}
@@ -41,5 +41,10 @@
 		color: $white;
 		letter-spacing: 2px;
 		line-height: 1.95rem;
+	}
+}
+@include tablet {
+	.banner .banner-container {
+		padding-left: 0;
 	}
 }

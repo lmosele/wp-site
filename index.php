@@ -51,8 +51,8 @@
 	</section>
 
 	<section id="homeTeamIntro" class="section section-blue no-pad row">
-		<div class="large-5 columns team-tile-image"></div>
-		<div class="large-7 columns">
+		<div class="large-5 medium-12 columns team-tile-image"></div>
+		<div class="large-7 medium-12 columns">
 			<h3 class="section-headline">About Us</h3>
 			<p class="section-paragraph">
 				Kriss Law specializes in residential conveyance. We have built our business on servicing our clients in new and innovative ways. We realize that many see the closing process as a difficult endeavor. At Kriss Law, we aim to simplify it for our clientele. From reasonable fees, to our willingness to conduct a closing at a client’s convenience, we firmly believe that our service makes us different.
@@ -69,7 +69,7 @@
 		</div>
 	</section>
 
-	<section id="homeAwards" class="section section-white row">
+<!-- 	<section id="homeAwards" class="section section-white row">
 		<div class="large-8 large-centered columns">
 			<h3 class="section-headline">Our Reputation</h3>
 			<div class="home-slider">
@@ -84,7 +84,7 @@
 		    <div>your content</div>
 		  </div>
 		</div>
-	</section>
+	</section> -->
 
 
 	<div id="newsBar" class="news-event-bar row fullwidth">
