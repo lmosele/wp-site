@@ -4,13 +4,19 @@
 	<?php echo file_get_contents("./src/modules/_menu.php"); ?>
 
 	<section id="homeBanner" style="background-image:url('./dist/img/banner-image-desktop.jpg');" class="banner home-banner row fullwidth">
-		<div class="banner-container large-8 columns">
+		<div class="banner-container large-7 columns">
 			<h1 class="banner-header">Your Closing Professionals</h1>
 			<h2 class="banner-subheader">Residential real estate closing and escrow services made simple and affordable.</h2>
 			<a class="blue-button" id="mainBannerButton" href="#">Get A Quote</a>
 			<a class="ghost-button white" id="secondaryBannerButton" href="#">Fee Calculator</a>
 		</div>
-		<div class="banner-callout large-4 columns"></div>
+		<div class="large-5 columns">
+			<div class="banner-callout right">
+				<h3 class="callout-header">Need A Title? Kriss Law Can Help</h3>
+				<p class="callout-body">Kriss Law guarantees accurate and timely order title delivery. Request one via our Title Order page:</p>
+				<a class="ghost-button white" href="/order-title">Request Title</a>
+			</div>
+		</div>
 	</section>
 
 	<section id="homeValueProp" class="section section-white row">

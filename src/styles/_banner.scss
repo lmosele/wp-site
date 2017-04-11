@@ -47,8 +47,32 @@
 		line-height: 1.95rem;
 	}
 }
+
+.banner-callout {
+	color: $white;
+	background: $blackoverlay;
+	height: auto;
+	padding: 40px 20px;
+	position: absolute;
+	right: 0;
+	top: 150px;
+	text-align: center;
+	max-width: 30%;
+	.callout-header {
+		font-size: $fontbase;
+	}
+	.callout-body {
+		font-size: $fontmobile;
+		margin-bottom: 15px;
+	}
+}
+
 @include tablet {
 	.banner .banner-container {
-		padding-left: 0;
+		padding: 10px;
+		text-align: center;
+	}
+	.banner-callout {
+		display: none;
 	}
 }
