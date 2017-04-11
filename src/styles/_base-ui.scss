@@ -21,6 +21,8 @@
 	.center {
 		text-align: center;
 	}
+	.right { float: right }
+	.left { float: left }
 	&.no-pad {
 		padding: 0;
 		> .columns {
@@ -28,8 +30,26 @@
 			padding-top: 80px;
 		}
 	}
+	.fixed { position: fixed }
+	.separator-left {
+		&.columns { min-height: 100vh; }
+		border-left: 1px solid $gray;
+	}
+	.separator-right {
+		&.columns { min-height: 100vh; }
+		border-right: 1px solid $gray;
+	}
 }
 
+.form-section {
+	padding: 30px;
+	&.blue {
+		background-color: $lightblue;
+	}
+	.section-subtitle {
+		font-size: $fontmobile;
+	}
+}
 
 
 .section-white {
