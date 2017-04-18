@@ -1,6 +1,9 @@
 .section {
 	max-width: 100%;
 	min-height: 300px;
+	&.modal {
+		max-width: 500px;
+	}
 	.section-headline {
 		text-transform: uppercase;
 		font-weight: 300;

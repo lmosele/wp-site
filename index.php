@@ -8,13 +8,13 @@
 			<h1 class="banner-header">Your Closing Professionals</h1>
 			<h2 class="banner-subheader">Residential real estate closing and escrow services made simple and affordable.</h2>
 			<a class="blue-button" id="mainBannerButton" href="#">Get A Quote</a>
-			<a class="ghost-button white" id="secondaryBannerButton" href="#">Fee Calculator</a>
+			<a class="ghost-button white" id="secondaryBannerButton" href="/le-calculator.php">Fee Calculator</a>
 		</div>
 		<div class="large-5 columns">
 			<div class="banner-callout right">
 				<h3 class="callout-header">Need A Title? Kriss Law Can Help</h3>
 				<p class="callout-body">Kriss Law guarantees accurate and timely order title delivery. Request one via our Title Order page:</p>
-				<a class="ghost-button white" href="/order-title">Request Title</a>
+				<a class="ghost-button white" href="/order-title.php">Request Title</a>
 			</div>
 		</div>
 	</section>
@@ -67,8 +67,8 @@
 				Atlantic Closing & Escrow, LLC is a member of the Kriss Law family bringing the Kriss Law philosophy of superior service, commitment, and affordable pricing to all 50 States.
 			</p>
 			<div class="button-row">
-					<a class="ghost-button white" href="#">Locations</a>
-					<a class="ghost-button white" href="#">Contact Us</a>
+					<a class="ghost-button white" href="#modal">Locations</a>
+					<a class="ghost-button white" href="./contact-us.php">Contact Us</a>
 					<a class="ghost-button white" href="#">Meet The Team</a>
 					<a class="ghost-button white" href="#">Careers</a>
 			</div>
@@ -79,15 +79,12 @@
 		<div class="large-8 large-centered columns">
 			<h3 class="section-headline">Our Reputation</h3>
 			<div class="home-slider">
-		    <div>your content</div>
-		    <div>your content</div>
-		    <div>your s</div>
-		    <div>your s</div>
-		    <div>your content</div>
-		    <div>your content</div>
-		    <div>your s</div>
-		    <div>your as</div>
-		    <div>your content</div>
+				<img class="slider-images" src="./dist/img/logos/aicpa.png" />
+				<img class="slider-images" src="./dist/img/logos/bankers-tradesman.png" />
+				<img class="slider-images" src="./dist/img/logos/bbb-seal.png" />
+				<img class="slider-images" src="./dist/img/logos/preferred-bostontop20.jpg" />
+				<img class="slider-images" src="./dist/img/logos/redfin.png" />
+				<img class="slider-images" src="./dist/img/logos/secure-settlements.gif" />
 		  </div>
 		</div>
 	</section> -->
@@ -95,9 +92,22 @@
 
 	<div id="newsBar" class="news-event-bar row fullwidth">
 		<div class="large-8 large-centered columns">
-			<!-- slider -->
-			
+
 		</div>
+	</div>
+
+	<!-- directions modal -->
+	<div class="remodal section modal" data-remodal-id="modal">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<h3 class="section-subheader">Office Locations</h3>
+		<p class="section-paragraph">
+			Click the links to see the maps and addresses:
+		</p>
+		<br>
+		<?php include './src/modules/_addresses-list.php'; ?>
+		<br>
+		<br>
+		<button data-remodal-action="cancel" class="ghost-button blue">Close</button>
 	</div>
 
 	<?php echo file_get_contents("./src/modules/_footer.php"); ?>
@@ -106,6 +116,7 @@
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="dist/js/slick/slick.min.js"></script>
+  <script type="text/javascript" src="dist/js/remodal.min.js"></script>
 	<script type="text/javascript" src="dist/js/main.min.js"></script>
 	
 </body>

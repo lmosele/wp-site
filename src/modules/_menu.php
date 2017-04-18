@@ -1,6 +1,6 @@
 <nav class="top-nav" id="topNav">
 	<h1 class="nav-logo">
-	  <a href="#home">
+	  <a href="/index.php">
 	    <img src="./dist/img/logo-white.png" alt="Kriss Law Atlantic Closing & Escrow" />
 	  </a>
 	</h1>
@@ -10,7 +10,7 @@
 		<li class="nav-item"><a role="link" class="nav-link" href="#">News &amp; Events</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="#">Our Team</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="#">Careers</a></li>
-		<li class="nav-item"><a role="link" class="nav-button" href="#">Contact Us</a></li>
+		<li class="nav-item"><a role="link" class="nav-button" href="./contact-us.php">Contact Us</a></li>
 	</ul>
 	
 </nav>
@@ -27,6 +27,6 @@
 		<li class="nav-item"><a role="link" class="nav-link" href="#">News &amp; Events</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="#">Our Team</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="#">Careers</a></li>
-		<li class="nav-item"><a role="link" class="nav-link" href="#">Contact Us</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./contact-us.php">Contact Us</a></li>
 	</ul>
 </div>
