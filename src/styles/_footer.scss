@@ -1,7 +1,13 @@
-.footer {
-	height: 300px;
+.section-blue.footer {
+	height: 250px;
 	background: $blue;
 	color: $white;
+	padding-top: 40px;
+}
+
+.footer-copyright {
+	margin-top: 20px;
+	text-align: right;
 }
 
 .footer-container {
@@ -25,5 +31,18 @@
 		&:last-of-type {
 			border: 0;
 		}
+	}
+}
+
+@include tablet {
+	.section-blue.footer {
+		height: auto;
+	}
+	.footer-container {
+		display: none;
+	}
+	.footer-copyright {
+		width: 100%;
+		text-align: center;
 	}
 }

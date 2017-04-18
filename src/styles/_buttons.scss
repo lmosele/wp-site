@@ -76,6 +76,10 @@
 @include tablet {
 	.button-row {
 		width: 100%;
+		a, button {
+			display: block;
+			width: 100%;
+		}
 	}
 	.ghost-button,
 	.blue-button,

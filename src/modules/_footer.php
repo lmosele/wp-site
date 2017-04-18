@@ -32,4 +32,7 @@
 				</ul>
 			</div>
 		</div>
+		<div class="footer-copyright row">
+			<div class="large-12 columns"><span>info@krisslaw.net ©2017 Kriss Law</span></div>
+		</div>
 	</footer>
