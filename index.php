@@ -92,7 +92,12 @@
 
 	<div id="newsBar" class="news-event-bar row fullwidth">
 		<div class="large-8 large-centered columns">
-
+			<div class="center">
+				<a class="event-bar-link" href="#linktonewsitem">
+					<span>April 14, 2017</span>
+					On Call Lawyer
+				</a>
+			</div>
 		</div>
 	</div>
 

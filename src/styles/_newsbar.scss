@@ -1,9 +1,17 @@
 .news-event-bar {
+	display: none; //for now;
 	width: 100%;
 	background-color: $blue;
 	height: 60px;
 	position: fixed;
 	bottom: 0;
 	color: white;
-	display: none; //for now
+	.event-bar-link {
+		color: $white;
+		line-height: 60px;
+		span {
+			font-weight: 600;
+			font-style: italic;
+		}
+	}
 }

@@ -80,6 +80,24 @@
 }
 
 
+.section-post {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	.section-subheader {
+		border-bottom: 1px solid $gray;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	.section-subtitle {
+		margin-bottom: 15px;
+	}
+	&+ .section-post {
+		margin-top: 70px;
+	}
+}
+
+
 .link-list {
 	ul {
 		margin-left: 10px;

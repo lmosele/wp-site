@@ -56,6 +56,13 @@
 	}
 }
 
+object.scrolled {
+	svg {
+	.logo-1{fill:$blue;}
+	.logo-2{stroke:$blue;}
+	}
+}
+
 @include desktop {
 	.top-nav .nav-logo {
 		max-width: 250px;
