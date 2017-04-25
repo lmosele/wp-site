@@ -70,9 +70,19 @@
 @include tablet {
 	.banner .banner-container {
 		padding: 10px;
-		text-align: center;
 	}
 	.banner-callout {
 		display: none;
+	}
+}
+@include mobile {
+	.banner {
+		.banner-header {
+			font-size: $fontlarge;
+			border-bottom: 1px solid $white;
+		}
+		.banner-subheader {
+			font-size: $fontmobile;
+		}
 	}
 }

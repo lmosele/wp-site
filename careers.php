@@ -48,16 +48,14 @@
 				</article>
 
 
-
-
 			</div>
 
 			<!-- sidebar -->
-			<div class="large-4 show-for-large-up columns separator-left">
+			<div class="large-4 show-for-large-only columns separator-left">
 
-				<h5 class="section-subheader">Questions or Concerns?</h5>
-				<p class="section-subtitle">Reach out to us by clicking below, or call us directly at: 000-000-0000</p>
-				<a class="ghost-button blue" href="#team-page">Team Page</a>
+				<h3 class="section-subheader">Questions or Concerns?</h3>
+				<p class="section-subtitle">Reach out to us by clicking below, or call us directly at: 888-632-4939</p>
+				<button class="orange-button fullwidth">Contact Us</button>
 
 			</div>
 
