@@ -70,7 +70,7 @@
 }
 
 
-@include mobile {
+@include tablet {
 	.section.no-pad {
 		> .columns {
 			padding-left: 10px;
@@ -112,6 +112,10 @@
 			&.columns { min-height: 100px; }
 			border: 0;
 			border-top: 1px solid $gray;
+		}
+		.section-headline {
+			text-align: center;
+			line-height: $linehuge;
 		}
 	}
 	.link-list {

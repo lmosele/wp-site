@@ -9,14 +9,27 @@
 	background-size: cover;
 	background-attachment: contain;
 }
+@include tablet {
+	.team-tile-image {
+		height: 200px;
+		min-height: 200px;
+	}
+}
 
-.home-slider {
+.awards-grid {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	.slider-images {
-		// max-width: 100px;
-		// max-height: 100px;
-		// opacity: 90;
+	.grid-images {
+		display: block;
+		max-width: 200px;
+		margin: 0 auto;
+		opacity: .5;
+		transition: all 1s ease;
+		&:hover {
+			cursor: pointer;
+			opacity: 1;
+			transition: all 1s ease;
+		}
 	}
 }
 

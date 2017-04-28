@@ -78,19 +78,45 @@
 		</div>
 	</section>
 
-<!-- 	<section id="homeAwards" class="section section-white row">
+	<section id="homeAwards" class="section section-white row">
 		<div class="large-8 large-centered columns">
 			<h3 class="section-headline">Our Reputation</h3>
-			<div class="home-slider">
-				<img class="slider-images" src="./dist/img/logos/aicpa.png" />
-				<img class="slider-images" src="./dist/img/logos/bankers-tradesman.png" />
-				<img class="slider-images" src="./dist/img/logos/bbb-seal.png" />
-				<img class="slider-images" src="./dist/img/logos/preferred-bostontop20.jpg" />
-				<img class="slider-images" src="./dist/img/logos/redfin.png" />
-				<img class="slider-images" src="./dist/img/logos/secure-settlements.gif" />
+
+			<div class="awards-grid row">
+				<div class="large-4 columns">
+					<a href="#" target="_blank">
+						<img alt="Kriss Law/Atlantic Adheres To All SSAE 16 SOC 2 Standards, Ensuring The Highest Level Of Security And Privacy For Our Clients' Data" class="grid-images" src="./dist/img/logos/aicpa.gif" 
+					/></a>
+				</div>
+				<div class="large-4 columns">
+					<a href="#" target="_blank">
+						<img alt="Kriss Law/Atlantic Best Closing Firm 2016" class="grid-images" src="./dist/img/logos/bankers-tradesman.gif" />
+					</a>
+				</div>
+				<div class="large-4 columns">
+					<a href="https://www.bbb.org/boston/business-reviews/attorneys-and-lawyers-real-estate/the-law-offices-of-scott-d-kriss-llc-in-needham-hgts-ma-123246#bbbonlineclick" target="_blank">
+						<img alt="Better Business Bureau Accredited Business" class="grid-images" src="./dist/img/logos/bbb-seal.gif" />
+					</a>
+				</div>
+				<div class="large-4 columns">
+					<a href="http://www.bostontop20.com/" target="_blank">
+						<img alt="Kriss Law/Atlantic Is The Preferred Closing Partner of Bostontop20.com" class="grid-images" src="./dist/img/logos/preferred-bostontop20.gif" />
+					</a>
+				</div>
+				<div class="large-4 columns">
+					<a href="https://www.redfin.com/openbook/real-estate-lawyer/boston-scott-kriss-sp438">
+						<img alt="Kriss Law/Atlantic Is A Trusted Redfin Real Estate Partner." class="grid-images" src="./dist/img/logos/redfin.gif" />
+					</a>
+				</div>
+				<div class="large-4 columns">
+					<a href="#" target="_blank">
+						<img alt="Kriss Law/Atlantic Is Certified By Secure Settlements" class="grid-images" src="./dist/img/logos/secure-settlements.gif" />
+					</a>
+				</div>
 		  </div>
 		</div>
-	</section> -->
+		
+	</section>
 
 
 	<div id="newsBar" class="news-event-bar row fullwidth">
@@ -123,7 +149,6 @@
 	<!-- SCRIPTS -->
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="dist/js/slick/slick.min.js"></script>
   <script type="text/javascript" src="dist/js/remodal.min.js"></script>
 	<script type="text/javascript" src="dist/js/main.min.js"></script>
 	
