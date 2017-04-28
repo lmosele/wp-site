@@ -1,4 +1,7 @@
+
+
 <?php echo file_get_contents("./src/modules/_head.php") ?>
+
 <body id="home">
 
 	<?php echo file_get_contents("./src/modules/_menu.php"); ?>

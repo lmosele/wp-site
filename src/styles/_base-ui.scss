@@ -107,6 +107,13 @@
 	}
 }
 @include tablet {
+	.section {
+		.separator-left {
+			&.columns { min-height: 100px; }
+			border: 0;
+			border-top: 1px solid $gray;
+		}
+	}
 	.link-list {
 		a {
 			line-height: $linehuge;

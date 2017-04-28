@@ -1,8 +1,7 @@
 <nav class="top-nav" id="topNav">
 	<h1 class="nav-logo">
-	  <a href="./index.php">
-	  	<object type="image/svg+xml" data="./src/modules/_logo.php" class="logo-object">
-			</object>
+	  <a href="index.php">
+	  	<img id="mainLogo" src="./dist/img/logo-white.png">
 	  </a>
 	</h1>
 	<ul class="nav-link-list">

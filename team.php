@@ -19,7 +19,7 @@
 
 				<article class="section-bio row">
 					<div class="large-2 columns">
-						<img class="bio-image" src="./dist/img/team/SCOTT-KRISS.jpg">
+						<img class="bio-image" src="./dist/img/team/scott-kriss.jpg">
 					</div>
 
 					<div class="large-10 columns">
@@ -35,11 +35,11 @@
 					</div>
 				</article>
 
-				<h3 class="section-subheader">Senior Attorneys:</h3>
+				<h3 class="section-subheader">Senior Attorneys</h3>
 
 				<article class="section-bio row">
 					<div class="large-2 columns">
-						<img class="bio-image" src="../dist/img/team/BEN-HOLLANDER.jpg">
+						<img class="bio-image" src="./dist/img/team/ben-hollander.jpg">
 					</div>
 
 					<div class="large-10 columns">
@@ -68,7 +68,7 @@
 						<span class="bio-subtitle">Email: <a href="mailto:testemail@test.com">testemail@test.com</a></span>
 
 						<p class="bio-paragraph">
-							default bio
+							This is what an employee without a profile photo will look like
 						</p>
 					</div>
 				</article>

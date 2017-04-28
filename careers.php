@@ -26,7 +26,7 @@
 					<p class="section-subtitle post-type">Type: Full-Time</p>
 					<p class="section-paragraph">The average level of real estate experience for Kriss Law and Atlantic Closing & Escrow, LLC’s  employees is over 10 years. Each member of the staff has only one credo in the performance of their daily duties — customer satisfaction!</p>
 					<br />
-					<a href="./contact-us.php" class="blue-button">Apply Via Email</a>
+					<a href="mailto:info@krisslaw.com?subject=Applying For Job Position" class="blue-button">Apply Via Email</a>
 				</article>
 
 				<article class="section-post">
@@ -35,7 +35,7 @@
 					<p class="section-subtitle post-type">Type: Full-Time</p>
 					<p class="section-paragraph">The average level of real estate experience for Kriss Law and Atlantic Closing & Escrow, LLC’s  employees is over 10 years. Each member of the staff has only one credo in the performance of their daily duties — customer satisfaction!</p>
 					<br />
-					<a href="./contact-us.php" class="blue-button">Apply Via Email</a>
+					<a href="mailto:info@krisslaw.com?subject=Applying For Job Position" class="blue-button">Apply Via Email</a>
 				</article>
 
 				<article class="section-post">
@@ -44,14 +44,14 @@
 					<p class="section-subtitle post-type">Type: Full-Time</p>
 					<p class="section-paragraph">The average level of real estate experience for Kriss Law and Atlantic Closing & Escrow, LLC’s  employees is over 10 years. Each member of the staff has only one credo in the performance of their daily duties — customer satisfaction!</p>
 					<br />
-					<a href="./contact-us.php" class="blue-button">Apply Via Email</a>
+					<a href="mailto:info@krisslaw.com?subject=Applying For Job Position" class="blue-button">Apply Via Email</a>
 				</article>
 
 
 			</div>
 
 			<!-- sidebar -->
-			<div class="large-4 show-for-large-only columns separator-left">
+			<div class="large-4 columns separator-left">
 
 				<h3 class="section-subheader">Questions or Concerns?</h3>
 				<p class="section-subtitle">Reach out to us by clicking below, or call us directly at: 888-632-4939</p>
