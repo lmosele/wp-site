@@ -54,6 +54,14 @@
 	}
 }
 
+.acf-fields > .acf-field{
+	padding: 0 !important;
+}
+
+.acf-field .acf-label label{
+	font-weight: normal !important;
+}
+
 
 .section-white {
 	color: $black;
