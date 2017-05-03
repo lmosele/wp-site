@@ -1572,7 +1572,7 @@ textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  height: 2.4375rem;
+  height: 2.4375rem !important;
   margin: 0 0 1rem;
   padding: 0.5rem;
   border: 1px solid #cacaca;
@@ -1655,11 +1655,11 @@ label > [type='radio'] {
 [type='file'] {
   width: 100%; }
 
-label {
+label, .acf-field .acf-label label {
   display: block;
-  margin: 0;
+  margin: 0 !important;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: normal !important;
   line-height: 1.8;
   color: #0a0a0a; }
   label.middle {
