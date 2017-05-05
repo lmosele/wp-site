@@ -99,6 +99,7 @@
 
 .acf-fields > .acf-field{
 	padding: 0 !important;
+	border: 0 !important;
 }
 
 .acf-field .acf-label{
@@ -203,4 +204,23 @@
 body {
   scrollbar-face-color: $blue;
   background: rgba(255,255,255,0);
+}
+
+@media print, screen and (min-width: 64em) {
+	.acf-fields{
+		.acf-field-590b968f05bb2, .acf-field-590b969505bb3, .acf-field-590b98cdd2f84, .acf-field-590b98e1d2f85, .acf-field-590b98edd2f86, .acf-field-590b9954d2f87, .acf-field-590b995dd2f88, .acf-field-590b998bd2f8b, .acf-field-590b9983d2f8a, .acf-field-590b99dad2f90, .acf-field-590b99e3d2f91, .acf-field-590b9a7b818b0, .acf-field-590b9a8e3d430, .acf-field-590b9aa63d431  {
+			width: 50%;
+			float: left;
+			clear: none !important;
+		}
+		.acf-field-590b968f05bb2, .acf-field-590b98cdd2f84, .acf-field-590b98e1d2f85, .acf-field-590b9954d2f87, .acf-field-590b9983d2f8a, .acf-field-590b99dad2f90, .acf-field-590b9a7b818b0, .acf-field-590b9a8e3d430 {
+			padding-right: 0.9375rem !important;
+		}
+		.acf-field-590b969505bb3, .acf-field-590b98edd2f86, .acf-field-590b995dd2f88, .acf-field-590b998bd2f8b, .acf-field-590b99e3d2f91, .acf-field-590b9aa63d431 {
+			padding-left: 0.9375rem !important;
+		}
+		.acf-field-590b9a7b818b0, .acf-field-590b9a8e3d430{
+			clear: both !important;
+		}
+	}
 }
