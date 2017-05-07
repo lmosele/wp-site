@@ -14,6 +14,7 @@
 }
 
 %abstract-button {
+	display: inline-block;
 	box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -32,7 +33,7 @@
 	color: $white;
 	border: 1px solid white;
 	&:hover {
-		background-color: lighten($orange,10%);
+		background-color: lighten($orange,15%);
 		color: white;
 	}
 }
@@ -43,7 +44,7 @@
 	color: $white;
 	border: 1px solid $blue;
 	&:hover {
-		border-color: $white;
+		background-color: lighten($blue,10%);
 		color: $white;
 	}
 }

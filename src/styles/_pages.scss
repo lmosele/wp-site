@@ -108,9 +108,53 @@ iframe#leCalcIframe {
 	}
 }
 
+// services pages
+.services-nav {
+	margin-top: 30px;
+	margin-left: 20px;
+	.services-nav-item {
+		width: 100%;
+		display: block;
+		position: relative;
+		a {
+			display: block;
+			width: 100%;
+			padding: 5px;
+			font-size: $fontmobile;
+			font-weight: 700;
+			&.selected {
+				color: $orange;
+				border-left: 2px solid $orange;
+			}
+			&:hover {
+				color: $orange;
+				&:after {
+					right: 0px;
+					transition: right .2s ease;
+				}
+			}
+			&:after {
+				content:">"; 
+				position: absolute;
+				right: 10px;
+				top: 5px;
+				transition: right .2s ease;
+			}
+		}
+	}
+}
 
-
-
+@include mobile {
+	.services-nav {
+		margin-left: 0;
+		margin-top: 10px;
+		.services-nav-item {
+			a {
+				padding: 10px;
+			}
+		}
+	}
+}
 
 
 

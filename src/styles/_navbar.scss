@@ -16,11 +16,11 @@
 			color: white;
 			padding-bottom: 5px;
 			text-transform: uppercase;
-			transition: color .3s ease-out;
+			transition: color .1s ease-out;
 			&:hover {
 				color: $blue;
 				border-bottom: 3px solid $blue;
-				transition: color .3s ease-in;
+				transition: color .1s ease-in;
 			}
 		}
 	}	

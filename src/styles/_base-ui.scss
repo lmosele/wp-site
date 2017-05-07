@@ -56,7 +56,6 @@
 		display: flex;
 		margin: 0 auto;
 	}
-	// today was leg day so i dont care if this sucks
 	.valueprop-link {
 		text-align: center;
 		color: $white;
@@ -77,13 +76,6 @@
 	    margin-top: 10px;
 	    transition: .5s margin-top ease;
 		}
-		&:hover {
-
-    	&:after {
-		    margin-top: 20px;
-		    transition: .5s margin-top  ease;
-			}
-    }
 	}
 }
 
