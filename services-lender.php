@@ -15,7 +15,7 @@
 			<h3 class="valueprop-header">We serve over 100 national and local mortgage lenders across the nation.</h3>
 			<img class="valueprop-image" src="./dist/img/lenders-map.svg">
 
-			<div class="valueprop-link">Read More</div>
+			<div class="valueprop-link">Find out how we can help below</div>
 		</div>
 	</section>
 
