@@ -10,14 +10,9 @@
 		</div>
 	</section>
 
-	<section id="sellerValueProp" class="section section-blue value-prop row">
-		<div class="large-8 large-centered columns center">
-			<h3 class="valueprop-header">Helping you close your dream home since 1994</h3>
-			<img class="valueprop-image" src="./dist/img/buyer-handshake.svg">
 
-			<div class="valueprop-link">Read More</div>
-		</div>
-	</section>
+	<!-- ALTERNATIVE ORDERING OF SECTIONS, WHICH DO YOU THINK IS BEST? -->
+
 
 	<section class="section section-white row">
 		<div class="large-2 columns">
@@ -45,13 +40,22 @@
 			</p>
 			
 			<div class="button-row">
-				<a href="#" class="orange-button">Contact Us</a>
 				<a href="#" class="blue-button">Get A Quote</a>
 				<a href="#" class="blue-button">Fee Calculator</a>
 				<a href="#" class="ghost-button blue">Order A Title</a>
 			</div>
 		</div>
 	</section>
+
+	<section id="sellerValueProp" class="section section-blue value-prop row">
+		<div class="large-8 large-centered columns center">
+			<h3 class="valueprop-header">Helping you close your dream home since 1994</h3>
+			<img class="valueprop-image" src="./dist/img/buyer-handshake.svg">
+
+			<div class="valueprop-link"><a href="#" class="ghost-button white">Contact Us Today</a></div>
+		</div>
+	</section>
+
 
 	<?php echo file_get_contents("./src/modules/_footer.php"); ?>
 
