@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss src/styles/main.scss   dist/css/main.min.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\" "
+    "build-css": "node-sass --include-path scss src/styles/main.scss   dist/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\" ",
+    "prod": "node-sass --include-path scss src/styles/main.scss dist/css/main.css && postcss dist/css/main.css --use autoprefixer cssnano -d dist/css/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^7.0.1",
+    "cssnano": "^3.10.0",
     "node-sass": "^4.5.1",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "postcss-cli": "^3.2.0"
   }
 }
