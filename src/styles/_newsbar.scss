@@ -1,17 +1,36 @@
 .news-event-bar {
-	display: none; //for now;
+	display: block; //for now;
 	width: 100%;
 	background-color: $blue;
 	height: 60px;
 	position: fixed;
 	bottom: 0;
 	color: white;
+	transform: translateY(100%);
+	transition: transform .5s ease;
+	&.scrolled {
+		transform: translateY(0%);
+		transition: transform .5s ease;
+	}
 	.event-bar-link {
+		display: block;
 		color: $white;
 		line-height: 60px;
+		text-align: center;
 		span {
 			font-weight: 600;
 			font-style: italic;
+			margin-right: 5px;
+			&:after {
+				content: "-";
+				margin-left: 10px;
+
+			}
 		}
+	}
+}
+@include mobile {
+	.news-event-bar {
+		display: none;
 	}
 }
