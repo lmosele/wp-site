@@ -6,8 +6,9 @@
 }
 
 .footer-copyright {
-	margin-top: 20px;
-	text-align: right;
+	margin-top: 10px;
+  text-align: right;
+  display: block;
 }
 
 .footer-container {
@@ -18,10 +19,10 @@
 		.footer-link {
 			color: white;
 			line-height: $linelarger
-			&:hover {
-				
-			}
 		}
+	}
+	.footer-list-header {
+		font-weight: 700;
 	}
 	> .columns {
 			border-right: 1px solid white;

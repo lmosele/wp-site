@@ -26,9 +26,9 @@
 					
 			<div class="large-3 columns">
 				<ul class="footer-link-list">
-					<li><a class="footer-link" href="#">Test</a></li>
-					<li><a class="footer-link" href="#">Test</a></li>
-					<li><a class="footer-link" href="#">Test</a></li>
+					<li class="footer-list-header">Follow Us On:</li>
+					<li><a class="footer-link" href="#">Twitter</a></li>
+					<li><a class="footer-link" href="#">Facebook</a></li>
 				</ul>
 			</div>
 		</div>

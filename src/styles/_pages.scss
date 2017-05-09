@@ -158,6 +158,36 @@ iframe#leCalcIframe {
 
 
 
+// events pages
+
+.event-post {
+	background-color: lighten($gray, 15%);
+	padding: 20px;
+	padding-top: 5px;
+	margin: 0;
+}
+.event-post + .event-post {
+	margin-top: 20px;
+}
+
+.event-post-image {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
