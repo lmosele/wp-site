@@ -44,40 +44,6 @@
 	}
 }
 
-.value-prop {
-	.valueprop-header {
-		font-weight: 300;
-		color: $white;
-		margin-bottom: 30px;
-		margin-top: 30px;
-	}
-	.valueprop-image {
-		max-width: 30%;
-		display: flex;
-		margin: 0 auto;
-	}
-	.valueprop-link {
-		text-align: center;
-		color: $white;
-		padding-top: 60px;
-		margin-bottom: -50px;
-		&:after {
-			content:" "; 
-			height:14px; 
-			width:14px; 
-			border-right:1px solid #fff; 
-			display:block;  
-			border-bottom:1px solid #fff; 
-			display:block; 
-			-ms-transform: rotate(45deg); /* IE 9 */
-	    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-	    transform: rotate(45deg); 
-	    margin: 0 auto;
-	    margin-top: 10px;
-	    transition: .5s margin-top ease;
-		}
-	}
-}
 
 .form-section {
 	padding: 30px;

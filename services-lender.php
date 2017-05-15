@@ -10,15 +10,6 @@
 		</div>
 	</section>
 
-	<section id="lenderValueProp" class="section section-blue value-prop row">
-		<div class="large-8 large-centered columns center">
-			<h3 class="valueprop-header">We serve over 100 national and local mortgage lenders across the nation.</h3>
-			<img class="valueprop-image" src="./dist/img/lenders-map.svg">
-
-			<div class="valueprop-link">Find out how we can help below</div>
-		</div>
-	</section>
-
 	<section class="section section-white row">
 		<div class="large-2 columns">
 
@@ -63,6 +54,15 @@
 				<a href="#" class="blue-button">Fee Calculator</a>
 				<a href="#" class="ghost-button blue">Order A Title</a>
 			</div>
+		</div>
+	</section>
+
+	<section id="lenderValueProp" class="section section-blue value-prop row">
+		<div class="large-8 large-centered columns center">
+			<h3 class="valueprop-header">We serve over 100 national and local mortgage lenders across the nation.</h3>
+			<img class="valueprop-image" src="./dist/img/lenders-map.svg">
+
+			<div class="valueprop-link"><a href="#" class="ghost-button white">Contact Us Today</a></div>
 		</div>
 	</section>
 
