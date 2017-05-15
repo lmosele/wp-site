@@ -1745,6 +1745,26 @@ legend {
     padding: 0 0.1875rem;
     background: #fefefe; }
 
+.acf-field select{
+  padding: 0.5rem 1.5rem 0.5rem 0.5rem !important;
+  font-size: 1rem !important;
+  margin: 0 0 1rem !important;
+  line-height: normal !important;
+}
+
+.acf-field{
+  [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea{
+    box-sizing: border-box !important;
+    width: 100% !important;
+    margin: 0 0 1rem !important;
+    padding: 0.5rem !important;
+    font-size: 1rem !important;
+    -webkit-appearance: none !important;
+       -moz-appearance: none !important;
+            appearance: none !important;
+  }
+}
+
 select {
   height: 2.4375rem;
   margin: 0 0 1rem;
