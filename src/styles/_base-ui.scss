@@ -1,5 +1,6 @@
 .section {
-	max-width: 100%;
+	max-width: $xxxlargescreen;
+	width: 100%;
 	min-height: 300px;
 	&.modal {
 		max-width: 500px;
