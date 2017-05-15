@@ -16,16 +16,16 @@
 
 			<ul class="services-nav">
 				<li class="services-nav-item">
-					<a href="#">Lenders</a>
+					<a href="./services-lender.php">Lenders</a>
 				</li>
 				<li class="services-nav-item">
-					<a href="#">Real Estate Agents</a>
+					<a href="./services-real-estate-agent.php">Real Estate Agents</a>
 				</li>
 				<li class="services-nav-item">
-					<a href="#">Buyers</a>
+					<a href="./services-buyer.php">Buyers</a>
 				</li>
 				<li class="services-nav-item">
-					<a class="selected" href="#">Sellers</a>
+					<a class="selected" href="./services-seller.php">Sellers</a>
 				</li>
 			</ul>
 
@@ -39,7 +39,7 @@
 			<div class="button-row">
 				<a href="#" class="orange-button">Contact Us</a>
 				<a href="#" class="blue-button">Get A Quote</a>
-				<a href="#" class="blue-button">Fee Calculator</a>
+				<a href="./le-calculator.php" class="blue-button">Fee Calculator</a>
 				<a href="#" class="ghost-button blue">Order A Title</a>
 			</div>
 		</div>

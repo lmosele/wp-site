@@ -19,8 +19,8 @@
 	  </a>
 	</h1>
 	<ul class="nav-link-list">
-		<li class="nav-item"><a role="link" class="nav-link" href="#">Our Services</a></li>
-		<li class="nav-item"><a role="link" class="nav-link" href="#">News &amp; Events</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./index.php#homeValueProp">Our Services</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./events.php">News &amp; Events</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./team.php">Our Team</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./careers.php">Careers</a></li>
 		<li class="nav-item"><a role="link" class="nav-button" href="./contact-us.php">Contact Us</a></li>
@@ -35,8 +35,8 @@
 <div class="mobile-bg"></div>
 <div class="mobile-nav"> 
 	<ul class="nav-link-list-mobile">
-		<li class="nav-item"><a role="link" class="nav-link" href="#">Our Services</a></li>
-		<li class="nav-item"><a role="link" class="nav-link" href="#">News &amp; Events</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./index.php#homeValueProp">Our Services</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./events.php">News &amp; Events</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./team.php">Our Team</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./careers.php">Careers</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./contact-us.php">Contact Us</a></li>

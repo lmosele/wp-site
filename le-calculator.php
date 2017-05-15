@@ -13,7 +13,7 @@
 	<section id="contactUsSEction" class="section section-white">
 		<div class="row">
 			<div class="large-8 large-centered columns">
-				If there are any questions or concerns please <a href="#contact-us">contact us</a> or email us at info@krisslawatlantic.com.
+				If there are any questions or concerns please <a href=".contact-us.php">contact us</a> or email us at info@krisslawatlantic.com.
 			</div>
 			<hr />
 		</div>

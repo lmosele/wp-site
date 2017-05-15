@@ -10,19 +10,19 @@
 		<div class="banner-container large-7 columns">
 			<h1 class="banner-header">Your Closing Professionals</h1>
 			<h2 class="banner-subheader">Residential real estate closing and escrow services made simple and affordable.</h2>
-			<a class="blue-button" id="mainBannerButton" href="#">Get A Quote</a>
-			<a class="ghost-button white" id="secondaryBannerButton" href="/le-calculator.php">Fee Calculator</a>
+			<a class="blue-button" id="mainBannerButton" href="mailto:instantquote@krisslawatlantic.com">Get A Quote</a>
+			<a class="ghost-button white" id="secondaryBannerButton" href="./le-calculator.php">Fee Calculator</a>
 		</div>
 		<div class="large-5 columns">
 			<div class="banner-callout right">
 				<h3 class="callout-header">Need A Title? Kriss Law Can Help</h3>
 				<p class="callout-body">Kriss Law guarantees accurate and timely order title delivery. Request one via our Title Order page:</p>
-				<a class="ghost-button white" href="/order-title.php">Request Title</a>
+				<a class="ghost-button white" href="./order-title.php">Request Title</a>
 			</div>
 		</div>
 	</section>
 
-	<section id="homeValueProp" class="section section-white row">
+	<section name="homeValueProp" id="homeValueProp" class="section section-white row">
 		<div class="large-8 large-centered columns center">
 			<h3 class="section-headline">Kriss Law is here to help.</h3>
 			<h4 class="section-subheader">We realize that many see the closing process as a difficult endeavor. </h4>
@@ -32,25 +32,25 @@
 			<p class="section-subtitle">Click to see our services for each category:</p>
 			<ul class="value-prop-links row">
 				<li class="large-3 columns">
-					<a class="value-prop-link-item" href="#">
+					<a class="value-prop-link-item" href="./services-lender.php">
 						<?php echo file_get_contents("./dist/img/vector/briefcase.svg"); ?>
 						<span>Lenders</span>
 					</a>
 				</li>
 				<li class="large-3 columns">
-					<a class="value-prop-link-item" href="#">
+					<a class="value-prop-link-item" href="./services-real-estate-agent.php">
 						<?php echo file_get_contents("./dist/img/vector/hands.svg"); ?>
 						Real Estate Agents
 					</a>
 				</li>
 				<li class="large-3 columns">
-					<a class="value-prop-link-item" href="#">
+					<a class="value-prop-link-item" href="./services-buyer.php">
 						<?php echo file_get_contents("./dist/img/vector/wallet.svg"); ?>
 						Buyers				
 					</a>
 				</li>
 				<li class="large-3 columns">
-					<a class="value-prop-link-item" href="#">
+					<a class="value-prop-link-item" href="./services-seller.php">
 						<?php echo file_get_contents("./dist/img/vector/calculator.svg"); ?>
 						Sellers	
 					</a>
@@ -72,8 +72,8 @@
 			<div class="button-row">
 					<a class="ghost-button white" href="#modal">Locations</a>
 					<a class="ghost-button white" href="./contact-us.php">Contact Us</a>
-					<a class="ghost-button white" href="#">Meet The Team</a>
-					<a class="ghost-button white" href="#">Careers</a>
+					<a class="ghost-button white" href="./team.php">Meet The Team</a>
+					<a class="ghost-button white" href="./careers.php">Careers</a>
 			</div>
 		</div>
 	</section>
@@ -122,7 +122,7 @@
 	<div id="newsBar" class="news-event-bar row fullwidth">
 		<div class="large-8 large-centered columns">
 			<div class="center">
-				<a class="event-bar-link" href="#linktonewsitem">
+				<a class="event-bar-link" href="./news-template.php">
 					<span>April 14, 2017</span>
 					On Call Lawyer
 				</a>

@@ -77,7 +77,7 @@
 
 				<h4 class="section-subheader">Reach One of Our Members</h4>
 				<p class="section-subtitle">Have a specific need? Reach any of out team members via the team page</p>
-				<a class="ghost-button blue" href="#team-page">Team Page</a>
+				<a class="ghost-button blue" href="./team.php">Team Page</a>
 
 			</div>
 		</div>
