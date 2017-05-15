@@ -10,7 +10,7 @@
 		<div class="banner-container large-7 columns">
 			<h1 class="banner-header">Your Closing Professionals</h1>
 			<h2 class="banner-subheader">Residential real estate closing and escrow services made simple and affordable.</h2>
-			<a class="blue-button" id="mainBannerButton" href="mailto:instantquote@krisslawatlantic.com">Get A Quote</a>
+			<a class="blue-button" id="mainBannerButton" href="./instantquote.php">Get A Quote</a>
 			<a class="ghost-button white" id="secondaryBannerButton" href="./le-calculator.php">Fee Calculator</a>
 		</div>
 		<div class="large-5 columns">
