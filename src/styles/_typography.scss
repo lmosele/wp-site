@@ -1,7 +1,7 @@
 html[xmlns] .clearfix {
     display: block;
 }
- 
+
 * html .clearfix {
     height: 1%;
 }
@@ -94,7 +94,7 @@ a {
   text-decoration: none;
 }
 
-.reset-list {
+.reset-list, .cms-content ul {
   margin-left: 10px;
   li {
     line-height: 1.9em;

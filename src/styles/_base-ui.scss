@@ -12,7 +12,7 @@
 		margin-top: 20px;
 		margin-bottom: 50px;
 	}
-	.section-subheader {
+	.section-subheader, .cms-content h2 {
 		font-weight: 600;
 		color: $blue;
 		margin-bottom: 30px;
@@ -77,7 +77,7 @@
 	padding-bottom: 80px;
 	background-color: $blue;
 	@include gradient(darken($blue, 10%), $blue);
-	.section-subheader {
+	.section-subheader, .cms-content h2 {
 		color: $white;
 	}
 }
