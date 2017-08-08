@@ -10,7 +10,7 @@
 		<div class="banner-container large-7 columns">
 			<h1 class="banner-header">Your Closing Professionals</h1>
 			<h2 class="banner-subheader">Residential real estate closing and escrow services made simple and affordable.</h2>
-			<a class="blue-button" id="mainBannerButton" href="./instantquote.php">Get A Quote</a>
+			<a class="blue-button" id="mainBannerButton" href="./instantquote.php">Instaquote</a>
 			<a class="ghost-button white" id="secondaryBannerButton" href="./le-calculator.php">Fee Calculator</a>
 		</div>
 		<div class="large-5 columns">
@@ -19,43 +19,6 @@
 				<p class="callout-body">Kriss Law guarantees accurate and timely order title delivery. Request one via our Title Order page:</p>
 				<a class="ghost-button white" href="./order-title.php">Request Title</a>
 			</div>
-		</div>
-	</section>
-
-	<section name="homeValueProp" id="homeValueProp" class="section section-white row">
-		<div class="large-8 large-centered columns center">
-			<h3 class="section-headline">Kriss Law is here to help.</h3>
-			<h4 class="section-subheader">We realize that many see the closing process as a difficult endeavor. </h4>
-			<p class="section-paragraph">
-				At Kriss Law, we aim to simplify it for our clientele. From reasonable fees, to our willingness to conduct a closing at a client’s convenience, we firmly believe that our service makes us different. No matter who you are or what stage of the process you’re in, we’re here to help you:
-			</p>
-			<p class="section-subtitle">Click to see our services for each category:</p>
-			<ul class="value-prop-links row">
-				<li class="large-3 columns">
-					<a class="value-prop-link-item" href="./services-lender.php">
-						<?php echo file_get_contents("./dist/img/vector/briefcase.svg"); ?>
-						<span>Lenders</span>
-					</a>
-				</li>
-				<li class="large-3 columns">
-					<a class="value-prop-link-item" href="./services-real-estate-agent.php">
-						<?php echo file_get_contents("./dist/img/vector/hands.svg"); ?>
-						Real Estate Agents
-					</a>
-				</li>
-				<li class="large-3 columns">
-					<a class="value-prop-link-item" href="./services-buyer.php">
-						<?php echo file_get_contents("./dist/img/vector/wallet.svg"); ?>
-						Buyers				
-					</a>
-				</li>
-				<li class="large-3 columns">
-					<a class="value-prop-link-item" href="./services-seller.php">
-						<?php echo file_get_contents("./dist/img/vector/calculator.svg"); ?>
-						Sellers	
-					</a>
-				</li>
-			</ul>
 		</div>
 	</section>
 
@@ -78,7 +41,20 @@
 		</div>
 	</section>
 
-	<section id="homeAwards" class="section section-white row">
+	<section name="homeValueProp" id="homeValueProp" class="section section-white row">
+		<div class="large-8 large-centered columns center">
+			<h3 class="section-headline">Kriss Law is here to help.</h3>
+			<h4 class="section-subheader">We realize that many see the closing process as a difficult endeavor. </h4>
+			<p class="section-paragraph">
+				At Kriss Law, we aim to simplify it for our clientele. From reasonable fees, to our willingness to conduct a closing at a client’s convenience, we firmly believe that our service makes us different. No matter who you are or what stage of the process you’re in, we’re here to help you:
+			</p>
+			<div class="button-row">
+				<a class="ghost-button blue center" href="./services.php">Our Services</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="homeAwards" class="section section-blue row">
 		<div class="large-8 large-centered columns">
 			<h3 class="section-headline">Our Reputation</h3>
 

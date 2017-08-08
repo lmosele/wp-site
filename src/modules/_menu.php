@@ -19,10 +19,18 @@
 	  </a>
 	</h1>
 	<ul class="nav-link-list">
-		<li class="nav-item"><a role="link" class="nav-link" href="./index.php#homeValueProp">Our Services</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./services.php">Our Services</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./events.php">News &amp; Events</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./team.php">Our Team</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./careers.php">Careers</a></li>
+		<li class="nav-item social-items-space">
+			<ul class="link-list-social-icons">
+				<li class="nav-item"><a role="link" class="nav-link" href="{facebook}"><i class="fa fa-facebook"></i></a></li>
+				<li class="nav-item"><a role="link" class="nav-link" href="{twitter}"><i class="fa fa-twitter"></i></a></li>
+				<li class="nav-item"><a role="link" class="nav-link" href="{linkedin}"><i class="fa fa-linkedin"></i></a></li>
+				<li class="nav-item"><a role="link" class="nav-link" href="{instagram}"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+		</li>
 		<li class="nav-item"><a role="link" class="nav-button" href="./contact-us.php">Contact Us</a></li>
 	</ul>
 	
@@ -35,7 +43,7 @@
 <div class="mobile-bg"></div>
 <div class="mobile-nav"> 
 	<ul class="nav-link-list-mobile">
-		<li class="nav-item"><a role="link" class="nav-link" href="./index.php#homeValueProp">Our Services</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./services.php">Our Services</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./events.php">News &amp; Events</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./team.php">Our Team</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./careers.php">Careers</a></li>

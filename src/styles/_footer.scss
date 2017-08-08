@@ -1,8 +1,9 @@
 .section-blue.footer {
-	height: 250px;
+	height: 300px;
 	background: $blue;
 	color: $white;
-	padding-top: 40px;
+	padding: 0; //reset inherited styles
+	padding-top: 30px;
 }
 
 .footer-copyright {
@@ -13,7 +14,7 @@
 
 .footer-container {
 	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 	border-bottom: 1px solid white;
 	.footer-link-list {
 		.footer-link {
