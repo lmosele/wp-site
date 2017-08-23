@@ -13,12 +13,44 @@
 	<section id="titleForm" class="section section-white">
 		<div class="row">
 			<div class="large-8 medium-12 columns">
-				<h3 class="section-subheader">Order Your Title in Four Easy Steps</h3>
+				<h3 class="section-subheader">Order Title</h3>
 				<hr />
 
 					<form id="orderTitle">
+						<div id="generalInfoForm" class="form-section">
+							<p class="section-subtitle">1. General Information</p>
+						  <div class="row">
+						    <div class="large-12 columns">
+						      <label>Sales Price
+						        <input type="text" />
+						      </label>
+						    </div>
+						    <div class="large-12 columns">
+						      <label>Refinance Or Purchase*
+						        <select>
+						          <option value="Refinance">Refinance</option>
+						          <option value="Purchase">Purchase</option>
+						          <option value="Equity">Equity</option>
+						        </select>
+						      </label>
+						    </div>
+						  </div>
+						  <div class="row">
+						    <div class="large-12 columns">
+						      <label>Loan Amount* 
+						        <input type="text" />
+						      </label>
+						    </div>
+						    <div class="large-12 columns">
+						      <label>Loan Number
+						        <input type="text" />
+						      </label>
+						    </div>
+						  </div>
+						</div>
+
 						<div id="propertyInfoForm" class="form-section blue">
-							<p class="section-subtitle">1. Stuff goes here</p>
+							<p class="section-subtitle">2. Property Information</p>
 						  <div class="row">
 						    <div class="large-12 columns">
 						      <label>Property Address
@@ -27,12 +59,12 @@
 						    </div>
 						  </div>
 						  <div class="row">
-						    <div class="large-6 columns">
+						    <div class="large-12 columns">
 						      <label>City
 						        <input type="text" />
 						      </label>
 						    </div>
-						    <div class="large-6 columns">
+						    <div class="large-12 columns">
 						      <label>State
 						        <select>
 						          <option value="MA">Massachusetts</option>
@@ -42,7 +74,7 @@
 						    </div>
 						  </div>
 						  <div class="row">
-						    <div class="large-6 columns">
+						    <div class="large-12 columns">
 						      <label>Zip Code
 						        <input type="text" />
 						      </label>
@@ -50,41 +82,8 @@
 						  </div>
 						</div>
 
-						<div id="generalInfoForm" class="form-section">
-							<p class="section-subtitle">2. Stuff goes here</p>
-						  <div class="row">
-						    <div class="large-6 columns">
-						      <label>Sales Price
-						        <input type="text" />
-						      </label>
-						    </div>
-						    <div class="large-6 columns">
-						      <label>Refinance Or Purchase
-						        <select>
-						          <option value="Refinance">Refinance</option>
-						          <option value="Purchase">Purchase</option>
-						          <option value="Equity">Equity</option>
-						        </select>
-						      </label>
-						    </div>
-						  </div>
-
-						  <div class="row">
-						    <div class="large-6 columns">
-						      <label>Loan Amount
-						        <input type="text" />
-						      </label>
-						    </div>
-						    <div class="large-6 columns">
-						      <label>Loan Number
-						        <input type="text" />
-						      </label>
-						    </div>
-						  </div>
-						</div>
-
-						<div id="sellerBorrowerInfo" class="form-section blue">
-							<p class="section-subtitle">3. Stuff goes here</p>
+						<div id="sellerBorrowerInfo" class="form-section">
+							<p class="section-subtitle">3. Seller & Borrower Information</p>
 						  <div class="row">
 						    <div class="large-12 columns">
 						      <label>Seller Name
@@ -94,12 +93,12 @@
 						  </div>
 
 						  <div class="row">
-						    <div class="large-6 columns">
+						    <div class="large-12 columns">
 						      <label>Borrower Name
 						        <input type="text" />
 						      </label>
 						    </div>
-						    <div class="large-6 columns">
+						    <div class="large-12 columns">
 						      <label>Borrower Phone
 						        <input type="text" />
 						      </label>
@@ -115,8 +114,8 @@
 						  </div>
 						</div>
 
-						<div id="lenderInfo" class="form-section">
-							<p class="section-subtitle">4. Stuff goes here</p>
+						<div id="lenderInfo" class="form-section blue">
+							<p class="section-subtitle">4. Lender Information</p>
 						  <div class="row">
 						    <div class="large-12 columns">
 						      <label>Company Name
@@ -142,12 +141,12 @@
 						  </div>
 
 						  <div class="row">
-						    <div class="large-6 columns">
+						    <div class="large-12 columns">
 						      <label>City*
 						        <input type="text" />
 						      </label>
 						    </div>
-						     <div class="large-6 columns">
+						     <div class="large-12 columns">
 						      <label>State*
 						        <select>
 						          <option value="MA">Massachusetts</option>
@@ -158,7 +157,7 @@
 						  </div>
 
 						  <div class="row">
-						    <div class="large-6 columns">
+						    <div class="large-12 columns">
 						      <label>Zip Code*
 						        <input type="text" />
 						      </label>
@@ -166,12 +165,12 @@
 						  </div>
 
 						  <div class="row">
-						    <div class="large-6 columns">
+						    <div class="large-12 columns">
 						      <label>Lender Phone #*
 						        <input type="text" />
 						      </label>
 						    </div>
-						    <div class="large-6 columns">
+						    <div class="large-12 columns">
 						      <label>Lender Fax #
 						        <input type="text" />
 						      </label>
