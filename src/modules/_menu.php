@@ -22,8 +22,8 @@
 		<li class="nav-item"><a role="link" class="nav-link" href="./services.php">Our Services</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./blog-news-template.php">News</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./blog-events-template.php">Events</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./blog-education-template.php">Continuing Ed</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./team.php">Our Team</a></li>
-		<li class="nav-item"><a role="link" class="nav-link" href="./careers.php">Careers</a></li>
 		<li class="nav-item social-items-space">
 			<ul class="link-list-social-icons">
 				<li class="nav-item"><a role="link" class="nav-link" href="{facebook}"><i class="fa fa-facebook"></i></a></li>
