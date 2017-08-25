@@ -20,7 +20,7 @@
 				<ul class="footer-link-list">
 					<li><a class="footer-link" href="#">News</a></li>
 					<li><a class="footer-link" href="#">Events</a></li>
-					<li><a class="footer-link" href="#">Education</a></li>
+					<li><a class="footer-link" href="#">Continuing Education</a></li>
 					<li><a class="footer-link" href="#">Careers</a></li>
 				</ul>
 			</div>	

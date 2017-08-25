@@ -20,7 +20,8 @@
 	</h1>
 	<ul class="nav-link-list">
 		<li class="nav-item"><a role="link" class="nav-link" href="./services.php">Our Services</a></li>
-		<li class="nav-item"><a role="link" class="nav-link" href="./events.php">News &amp; Events</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./blog-news-template.php">News</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./blog-events-template.php">Events</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./team.php">Our Team</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./careers.php">Careers</a></li>
 		<li class="nav-item social-items-space">
@@ -44,7 +45,9 @@
 <div class="mobile-nav"> 
 	<ul class="nav-link-list-mobile">
 		<li class="nav-item"><a role="link" class="nav-link" href="./services.php">Our Services</a></li>
-		<li class="nav-item"><a role="link" class="nav-link" href="./events.php">News &amp; Events</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./blog-news-template.php">News</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./blog-events-template.php">Events</a></li>
+		<li class="nav-item"><a role="link" class="nav-link" href="./blog-education-template.php">Blog</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./team.php">Our Team</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./careers.php">Careers</a></li>
 		<li class="nav-item"><a role="link" class="nav-link" href="./contact-us.php">Contact Us</a></li>
