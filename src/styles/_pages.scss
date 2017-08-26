@@ -15,6 +15,11 @@
 		min-height: 200px;
 	}
 }
+@include mobile {
+	.team-tile-image {
+		display: none;
+	}
+}
 
 .awards-grid {
 	margin-top: 50px;
@@ -23,12 +28,12 @@
 		display: block;
 		max-width: 200px;
 		margin: 0 auto;
-		opacity: .5;
-		transition: all 1s ease;
+		opacity: .8;
+		transition: all .6s ease;
 		&:hover {
 			cursor: pointer;
 			opacity: 1;
-			transition: all 1s ease;
+			transition: all .6s ease;
 		}
 	}
 }
@@ -129,6 +134,24 @@ iframe#leCalcIframe {
 		}
 	}
 }
+
+
+// banners for news & blog pages
+@include mobile {
+	.events-banner {
+		padding: 0;
+		.banner-container {
+			margin: 0;
+			padding: 0;
+			.banner-header {
+				border: 0;
+				margin-top: 50px;
+				padding-left: 20px;
+			}
+		}
+	}
+}
+
 
 // services pages
 .services-nav {
